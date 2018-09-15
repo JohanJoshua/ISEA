@@ -1,0 +1,48 @@
+3.1 
+Primero: Para crear los modelos de un nuevo modulo es necesario definir cuantas tablas se va a utilizar y la relacion que va a existir entre estas.
+Segundo: Tenemos que definir que con que campos van a contar todas las tablas y el tipo de dato que se va a utilizar para estos campos.
+Tercero: Despues de haber definido las tablas debemos ingresar a la carpeta de nuestro modulo y buscar el archivo models.py dentro de este archivo existe un trozo de codigo comentado que nos sirve como base para crear una tabla simple, teniendo esto en cuenta hay que crear una clase para cada tabla y dentro de estas clases debemos colocar todos los campos que tienen asi como sus relaciones y el tipo de dato de los campos.
+
+Tarea
+
+1.¿Que es el PETI?
+
+La PETI (Planeación Estratégica de Tecnologías de Información) es ampliamente reconocida como una herramienta para ordenar los esfuerzos de incorporación de TI. Dicha herramienta establece las políticas requeridas para controlar la adquisición, el uso y la administración de los recursos de TI. Integra la perspectiva de negocios y organizacional con el enfoque de TI. Estableciendo un desarrollo informático que responde a las necesidades de la organización y contribuye al éxito de la empresa. Su desarrollo esta relacionado con la creación de una plan detransformación, que va del estado actual en que se encuentra la organización, esto, en concordancia con la estrategia de negocios y con el propósito de crear una ventaja competitiva.
+
+2.Descripcion detallada de la aplicacion del PETI
+
+Fase 1 - SITUACION ACTUAL:
+Todo el proceso comienza con un análisis de la situación actual, que produce un modelo funcional imperante en la empresa. En este paso se evalúa generalmente el entendimiento de la estrategia de negocios, la eficiencia de los procesos operativos y la aceptación de TI en la organización.
+
+Fase 2 – MODELO DE NEGOCIOS Y ORGANIZACIÓN: 
+Relacionada con la creación de un modelo de la organización, inicia con un análisis del entorno y establecimiento de las estrategias de negocios (el proceso de planeación se basa en una transformación de dichas estrategias). Continua con el diseño en detalle de los modelos operativos, que van a producir en parte los requerimientos de TI para mejorar la eficiencia y la productividad de la empresa (esta aproximación es soportada por una reingeniería de procesos o una automatización incremental, que se concentran en identificar deficiencias operativas, con el propósito de rediseñarlas, modificarlas y automatizarlas). Posteriormente se construye la estructura de la organización, que especifica puestos, perfiles, habilidades, etc. Necesarios para administrar la empresa. La fase termina con la construcción de una arquitectura de información, que identifica las necesidades globales de información de la empresa. El modelo es descrito con términos y conceptos de negocio y organización independientemente del soporte computacional.
+
+Fase 3 – MODELO DE TI:
+Trata del desarrollo de un modelo de TI. Como parte inicial tiene como objetivo la transformación de las estrategias de negocio en una estrategia de TI. Sigue con la construcción de la arquitectura de sistemas, que establece un marco para la especificación de aplicaciones y la integración de la información. Luego se definen los elementos clave y las características de la arquitectura tecnológica (Hardware y Comunicaciones), que establecerá la plataforma en que los sistemas van a funcionar. Continúa el diseño en detalle de los modelos operativos de TI, que describen el funcionamiento del área de informática. Finaliza con la definición sobre la estructura de la organización de TI, necesaria para administrar los requerimientos informáticos. Se sustenta en metodologías de gran trayectoria sobre el Gobierno de TI, como los son COBIT, COSO, ITIL, ISO que son avaladas por entidades como ISACA.
+
+Fase 4 - MODELO DE PLANEACION: 
+Se concentra en la elaboración de un modelo de planeación. Primero se establecen las prioridades para la implantación de TI. Y los procesos operativos, luego se define un plan de implantación, que determina el desarrollo de los proyectos de negocios, organización y TI. Continua con un estudio de la recuperación de la inversión, a través de un análisis de costo / beneficio. Todo el proceso finaliza con un estudio de administración del riesgo, que se encarga de reconocer la existencia de amenazas que puedan poner en peligro el éxito del PETI.
+
+Observaciones
+
+En el momento en el que creamos un nuevo modulo dentro de Odoo se nos generan una serie de archivos importantes como el __manifest__.py en el cual podemos modificar aspectos generales de nuestro modulo y definir que vistas van a estar habilitadas asimismo los primeros archivos de models.py y views.xml contienen ejemplos comentados de como esta estructurado una vista o un modelo por ende es bastante facil empezar a crear un modulo cuando se tiene toda esta ayuda de por medio.
+
+Cuando creamos nuevos modelos dentro de nuestro modulo estos necesitan crearse como clases dentro de nuestro archivo .py por lo que la identacion es muy importante, asimismo es necesario reconocer que tipo de relaciones se marcan entre nuestros modelos ya que la estructura de las funciones One2many y Many2one son diferentes.
+
+Las vistas tienen una estructura xml que ya tiene implementada una serie de clases para que se nos haga mucho mas facil el diseño de las vistas pero si en caso nosotros no creamos una vista de formulario para la insercion de datos en nuestros modelos Odoo genera por si solo una vista por defecta bastante agradable.
+
+Cada ves que se modifica algo de nuestro codigo de las vistas basta con actualizar el modulo para que estos cambios surtan efectos sin embargo si los cambios se han hecho dentro de los modelos, es necesario hacer un reinicio al servidor Odoo para que los cambios surtan efecto.
+
+Dentro de la definicion de los modelos de nuestro modulo al hacer referencias hacia otras tablas mediante las claves foraneas puede que en la interfaz grafica se nos muestren los id's de los campos que estamos referenciando en ves de un nombre que es algo mas facil de leer; para que esto no suceda tenemos que definir un campo _rec_name igualandolo al campo que queremos que se muestre por defecto.
+
+Conclusiones
+
+Implementamos un nuevo modulo haciendo referencia a la ruta addons donde se ubican todos los modulos utilizando el comando scaffold seguido del nombre que queremos para el nuevo modulo.
+
+Utilizamos un IDE para modificar el codigo fuente generado despues de la creacion del modulo haciendo cambios principalmente en los archivos models.py y __manifest__.py asimismo creamos varios archivos xml para definir distintas vistas en base a nuestros modelos.
+
+Creamos un modelo ER utilizando MySql para tener una guia de las relaciones y no equivocarnos al momento de escribirlo en el codigo del archivo .py debido a que MySql te remarca los tipos de relaciones con flechas caracteristicas.
+
+Aprendimos a modificar vistas aplicando estilos propios y dejando los estilos por defecto dependiendo de si tenemos un mejor diseño que el que ya esta por defecto en la plataforma.
+
+Averiguamos como seleccionar un campo por defecto para ser mostrado en nuestras tablas debido a que estas nos mostraban un id en la tabla de matriculas en el campo de alumnos en ves de su nombre que era como queriamos que se mostrara por lo que utilizamos un campo _rec_name para resolver este problema.
