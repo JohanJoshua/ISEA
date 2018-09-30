@@ -1,0 +1,6 @@
+Conclusiones
+
+_Utilizamos el archivo odoo.conf para designar un nuevo directorio de reconocimiento para los diferentes modulos a crear debido a que los que estan por defecto en odoo ya tienen un directorio y colocar los nuevos modulos en esa misma carpeta podria traernos confusiones.
+_Representamos un modelo Peti utilizando conceptos basicos aprendidos en el laboratorio pasado para esto nos planteamos una situacion de ejemplo en la que una empresa desea controlar los procesos que se han realizado y aquellos que faltan realizar de una manera mas global.
+_Diseñamos un MVC para trabajar con datos que pudimos considerar importantes para el desarrollo de este modulo como por ejemplo la fecha de creacion de una tarea y la importancia de la misma.
+_Definimos vistas para el listado de los empleados, las areas y las tareas utilizando el modelo predefinido de odoo obteniendo de este modo un listado amigable de los datos.
