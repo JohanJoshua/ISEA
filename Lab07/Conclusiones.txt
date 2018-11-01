@@ -1,0 +1,11 @@
+Conclusiones
+
+_Aprendimos como utilizar de manera basica el modulo de inventario utilizando caracteristicas como la unidad de medida para los productos la creacion de estos productos tanto manualmente como tambien mediante la importacion de un archivo csv para una creacion mas veloz y los ajustes de inventario para cambiar la cantidad de productos que tenemos en stock.
+
+_Utilizamos el modulo de punto de venta para tener una interfaz grafica que pueda utilizar los productos de stock y hacer ventas en base a sus precios haciendo los calculos respectivos e imprimiendonos una boleta al final de cada venta.
+
+_Instalamos el modulo de compras para definir distintos proveedores a los cuales les solicitamos pedidos de compra para aumentar el stock de nuestro inventario confirmando que dicho modulo se actualiza junto con el modulo de compras y el modulo de punto de venta.
+
+_Comprobamos que el modulo de punto de venta puede funcionar incluso si no se cuenta con conexion a internet almacenando todos los pedidos que se hagan durante ese periodo de tiempo para actualizarlo cuando se recupere la conexion.
+
+_Generamos facturas para los distintos pedidos creados en el modulo de compras para poder proceder al pago en el cual pudimos especificar si queriamos pagar todo en ese momento o si preferiamos pagar solo una parte de la deuda con nuestro proveedor.
