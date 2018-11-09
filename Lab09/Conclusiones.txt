@@ -1,0 +1,7 @@
+Conclusiones
+
+_Utilizamos la consola para poder inicializar odoo primero deshabilitando el servicio que corre por defecto en automatico en windows para luego ejecutar el python de odoo mandandole la url de nuestro odoo-bin y de esta modo podemos ejecutar odoo desde la consola
+_Creamos una carpeta para aplicaciones terceras ya que hay bastantes aplicaciones en la tienda de odoo que no existen en los paquetes por defecto que nos ofrece la version community.
+_Instalamos un modulo para cambiar la vista de login que odoo tiene por defecto ya que esta vista es poco amigable asimismo tambien instalamos un tema para nuestra vista de backend y que de este modo lusca mas profesional.
+_Instalamos un modulo para descargar nuestro stock de algun alamacen actual en formato xls pero apesar de haber habilitado la opcion de permitir conneccion a aplicaciones menos seguras en gmail y haber probado que la conexion fue exitosa la aplicacion instalada no logra enviarnos el archivo excel.
+_Buscamos un modulo para ubigeos de Peru ya que en primera instancia odoo no puede reconocer por si mismo los departamentos de cada pais que se selecciona por lo que esto es una opcion genial si planeamos utilizar nuestro sistema entre varias regiones.
