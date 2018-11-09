@@ -1,0 +1,6 @@
+Conclusiones 
+_Utilizamos el modulo de ventas en odoo y reconocimos las diferencias frente al modulo punto de venta ya que en este se hacen ventas con cotizacion y en el otro se hacen ventas en el instante.
+_Creamos cotizaciones que descuentan el valor de stock que tenemos en un momento determinado y nos mandan alertas si esque no contamos con stock para cumplir un pedido para que no hayan sorpresas luego.
+_Realizamos entregas de las distintas cotizaciones pudiendo realizar entregas parciales y completas, asimismo tambien pudimos ver que se pueden hacer facturaciones parciales y completas como en el modulo de compras.
+_Configuramos las caracteristicas de nuestro sistema para poder tenerlas a la mano cuando se crea un mensaje de confirmacion para algun cliente o proveedor asimismo tambien verificamos hasta que punto es modificable todos los mensajes mandados en odoo.
+_Instalamos el modulo CRM el cual nos ayuda a llevar un seguimiento de nuestros cliente y es muy util para no perder posibles oportunidades de ventas. 
