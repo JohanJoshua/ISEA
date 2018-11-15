@@ -1,0 +1,7 @@
+Conclusiones
+
+_Utilizamos un modulo creado por nosotros para poder definir distintos modelos dentro de este utilizando el codigo de ejemplo generado por defecto para la creacion del mismo de este fue nos fue posible definir campos con opciones como required, default y type.
+_Creamos vistas para nuestro modulo utilizando la nomenclatura que odoo maneja dentro de archivos xml revisando tambien la documentacion que odoo nos otorga para poder tener conocimientos mas amplios de lo que realiza cada etiqueta.
+_Definimos un menu para nuestras opciones dentro del modulo encargandonos de colocar acciones en los mismos para que se ejecuten en cada cambio de opcion, asi tambien definimos una estructura para el listado de la data en este caso utilizando trees para visualizar la data con mas detalle.
+_Creamos eventos dentro de nuestro modelo para que sucedan cosas al momento de cambiar algo de este modo pudimos verificar si un campo era adecuado o no antes de grabar el registro y con esta simple funcion evitamos que se ingresen datos sin sentido en la BD.
+_Comprobamos que nuestros cambios hayan sido ejecutados correctamente al momento de definir constrains ya que con estos no se nos permite guardar data a menos que todas las reglas definidas hayan sido cumplidas.
