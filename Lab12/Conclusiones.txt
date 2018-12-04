@@ -1,0 +1,5 @@
+Conclusiones
+
+_Definimos un grupo de usuarios para tener permisos definidos a todos aquellos usuarios que esten ubicados en este grupo asimismo tambien vimos la forma de ejecutar este proceso mediante un archivo delimitado por comas ubicado en la carpeta security.
+_Descubrimos que odoo nos brinda un API con la cual podemos conectarnos para obtener datos de Odoo y utilizarlos en aplicaciones terceras que no tienen que estar desarrollados en python por defecto.
+_Utilizamos el controlador de Odoo para poder requerir data de nuestros modelos y utilizarlos en la pagina web de Odoo.
