@@ -1,0 +1,7 @@
+Conclusiones
+
+_Aprendimos a hacer decoraciones de las vistas de los formularios que odoo nos ofrece para que estos puedan visualizarse de manera mas amigable para los usuarios.
+_Creamos distintos tipos de vistas entre estos estan la vista calendario para administrar los distintos eventos que se pueden programar en nuestro modulo, la vista graficos para poder tener un alcance de la data que se esta administrando en el modulo y la vista kanban la cual es una vista mucho mas elegante que la vista normal y nos permite hacer varias modificaciones visuales agradables.
+_Modificamos nuestro modulo para que al momento de ingresar a la vista de Cursos este ejecute una busqueda de todos los cursos que le pertenecen al usuario que ha ingresado para que este no tenga que estar ejecutando manualmente esta operacion.
+_Generamos un archivo para la traduccion de nuestro modulo el cual guardamos dentro de una carpeta i18n para poder modificar los distintos valores que tienen las traducciones asimismo pudimos ver como es que se traducen las palabras en el codigo mismo con la importacion de un paquete nativo de odoo debido a que el archivo generado no llega a detectar los textos que se generan dinamicamente.
+_Generamos reportes dentro de nuestro modulo debido a que esta es una parte escencial de cualquier sistema y tambien pudimos crear un wizard para las distintas acciones que querramos ejecutar con la ayuda del asistente.
